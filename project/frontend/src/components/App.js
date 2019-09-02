@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 import DataProvider from "./DataProvider";
 import Table from "./Table";
 import Form from "./Form";
-
+import ParentC from "./ParentC";
 const App = () => (
   <React.Fragment>
-    <DataProvider endpoint="api/lead/" render={data => <Table data={data} />} />
-    <Form endpoint="api/lead/" />
+    <ParentC />
+    {/*<DataProvider endpoint="api/lead/" render={data => <Table data={data} />} />*/}
+    {/*<Form endpoint="api/lead/" />*/}
   </React.Fragment>
 );
 
