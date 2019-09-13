@@ -75,6 +75,7 @@ class ParentC extends Component {
   };
 
 
+
   componentDidMount() {
     console.log('Main Component Mounted');
     fetch('api/lead/')
